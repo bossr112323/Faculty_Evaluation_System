@@ -328,17 +328,6 @@ CREATE TABLE `students` (
 -- Dumping data for table `students`
 --
 
-INSERT INTO `students` (`StudentID`, `FullName`, `SchoolID`, `Password`, `DepartmentID`, `CourseID`, `Status`, `ClassID`, `Email`) VALUES
-(1, 'John Michael Santos', '20241', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 1, 1, 'Active', 2, 'jm.santos@student.university.edu'),
-(2, 'Maria Cristina Reyes', '20240002', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 1, 1, 'Active', 1, 'mc.reyes@student.university.edu'),
-(3, 'Carlos Antonio Lim', '2024cs1', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 1, 1, 'Active', 1, 'ca.lim@student.university.edu'),
-(4, 'Andrea Nicole Tan', '2024it2', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 1, 1, 'Active', 1, 'an.tan@student.university.edu'),
-(5, 'Daniel Park', '2024it1', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 1, 2, 'Active', 4, 'd.park@student.university.edu'),
-(6, 'Miguel Santiago', '20240006', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 2, 3, 'Active', 5, 'm.santiago@student.university.edu'),
-(7, 'Elena Rodriguez', '20240007', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 1, 2, 'Active', 4, 'e.rodriguez@student.university.edu'),
-(8, 'Kevin Smith', '20240008', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 3, 4, 'Active', 7, 'k.smith@student.university.edu'),
-(9, 'Sophia Garcia', '20240009', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 4, 5, 'Active', 8, 's.garcia@student.university.edu'),
-(41, 'Student1', 'Student1', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 1, 1, 'Active', 1, 'pularalphgabriel@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -392,18 +381,6 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`UserID`, `FullName`, `SchoolID`, `Password`, `Role`, `DepartmentID`, `Status`, `Email`) VALUES
-(1, 'Ralph Gabriel Pula', '123', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 'Admin', NULL, 'Active', ''),
-(2, 'Dr. Sarah Johnson', 'DEAN1', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 'Dean', 1, 'Active', 's.johnson@university.edu'),
-(3, 'Dr. Michael Chen', 'DEAN2', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 'Dean', 2, 'Active', 'm.chen@university.edu'),
-(4, 'Dr. Robert Garcia', 'DEAN3', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 'Dean', 3, 'Active', 'r.garcia@university.edu'),
-(5, 'Prof. Jennifer Martinez', 'FAC001', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Faculty', 1, 'Active', 'j.martinez@university.edu'),
-(6, 'Prof. David Kim', 'FAC2', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Faculty', 1, 'Active', 'd.kim@university.edu'),
-(7, 'Prof. Amanda Wilson', 'FAC3', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Faculty', 1, 'Active', 'a.wilson@university.edu'),
-(8, 'Prof. James Rodriguez', 'FAC4', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Faculty', 2, 'Active', 'j.rodriguez@university.edu'),
-(9, 'Prof. Lisa Thompson', 'FAC5', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Faculty', 3, 'Active', 'l.thompson@university.edu'),
-(10, 'Prof. Mark Davis', 'FAC6', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Faculty', 4, 'Active', 'm.davis@university.edu'),
-(12, 'System Administrator', 'ADMIN001', 'ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1', 'Admin', NULL, 'Inactive', 'admin@university.edu');
 
 --
 -- Indexes for dumped tables
