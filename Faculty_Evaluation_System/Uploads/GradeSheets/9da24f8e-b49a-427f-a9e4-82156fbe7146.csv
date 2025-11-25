@@ -1,0 +1,20 @@
+FacultyName,Course,YearLevel,Section,SubjectCode,SubjectName,Term
+"Smith, John D.","Bachelor of Science in Information Technology","1ST","A","PROG101","Introduction to Programming","1st Semester"
+"Johnson, Maria R.","Bachelor of Science in Computer Science","2ND","B","DBMS101","Database Management Systems","2nd Semester"
+"Williams, Lisa K.","Bachelor of Science in Criminology","1ST","A","CRIM101","Criminal Law","1st Semester"
+
+# INSTRUCTIONS:
+# - FacultyName: Format as 'Last, First Middle' (e.g., 'Smith, John D.')
+# - Course: Full course name
+# - YearLevel: 1ST, 2ND, 3RD, 4TH
+# - Section: Section code (A, B, C, etc.)
+# - SubjectCode: Subject code (e.g., PROG101)
+# - SubjectName: Full subject name
+# - Term: '1st Semester' or '2nd Semester'
+#
+# NOTES:
+# - Required fields: FacultyName, Course, SubjectCode, YearLevel, Section, Term
+# - Department is auto-detected from Course
+# - Missing subjects and classes are created automatically
+# - Duplicate active assignments are skipped
+# - Previously deleted assignments are reactivated

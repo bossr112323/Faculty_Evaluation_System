@@ -1,0 +1,3 @@
+FacultyName,Department,Course,YearLevel,Section,SubjectCode,SubjectName,Term
+"Smith, John D.","College of Information Technology","Bachelor of Science in Information Technology","1ST","A","PROG101","Introduction to Programming","1st Semester"
+"Johnson, Maria R.","College of Information Technology","Bachelor of Science in Computer Science","2ND","B","DBMS101","Database Management Systems","2nd Semester"
