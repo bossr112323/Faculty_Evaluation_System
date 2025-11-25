@@ -368,21 +368,26 @@ INSERT INTO `subjects` (`SubjectID`, `SubjectName`, `SubjectCode`, `IsActive`) V
 
 CREATE TABLE `users` (
   `UserID` int(11) NOT NULL,
-  `FullName` varchar(100) NOT NULL,
+  `LastName` varchar(100) NOT NULL,
+  `FirstName` varchar(100) NOT NULL,
+  `MiddleInitial` varchar(20) NOT NULL,
+  `Suffix` varchar(15) DEFAULT NULL,
   `SchoolID` varchar(50) NOT NULL,
   `Password` varchar(255) NOT NULL,
-  `Role` enum('Student','Faculty','Dean','Admin') NOT NULL,
+  `Role` enum('Student','Faculty','Dean','Admin','Registrar') NOT NULL,
   `DepartmentID` int(100) DEFAULT NULL,
   `Status` enum('Active','Inactive') DEFAULT 'Active',
-  `Email` varchar(100) NOT NULL
+  `Email` varchar(100) DEFAULT NULL,
+  `FirstLogin` tinyint(1) DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`UserID`, `LastName`, `FirstName`, `MiddleInitial`, `Suffix`, `SchoolID`, `Password`, `Role`, `DepartmentID`, `Status`, `Email`) VALUES
-(47, 'Admin', 'System', '', NULL, '1230000001', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Admin', NULL, 'Active', 'pularalphgabriel54@gmail.com'),
+INSERT INTO `users` (`UserID`, `LastName`, `FirstName`, `MiddleInitial`, `Suffix`, `SchoolID`, `Password`, `Role`, `DepartmentID`, `Status`, `Email`, `FirstLogin`) VALUES
+(47, 'Admin', 'System', '', NULL, '1230000001', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Admin', NULL, 'Active', 'facultyevaluation2025@gmail.com', 0),
+
 --
 -- Indexes for dumped tables
 --
