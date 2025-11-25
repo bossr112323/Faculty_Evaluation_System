@@ -381,7 +381,8 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-
+INSERT INTO `users` (`UserID`, `LastName`, `FirstName`, `MiddleInitial`, `Suffix`, `SchoolID`, `Password`, `Role`, `DepartmentID`, `Status`, `Email`) VALUES
+(47, 'Admin', 'System', '', NULL, '1230000001', 'ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f', 'Admin', NULL, 'Active', 'pularalphgabriel54@gmail.com'),
 --
 -- Indexes for dumped tables
 --
